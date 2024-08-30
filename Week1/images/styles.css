@@ -9,11 +9,11 @@
 /* This section will take care of background, color, and everything else*/
 .navbar {
     background: black; 
-    height: 1000px;
+    height: 80;
     display: flex; 
     justify-content: center;
     align-items: center;
-    font-size: 1.0rem;
+    font-size: 7.0rem;
     position: sticky;
     top: 0; 
     z-index: 999;  /*to make sure this is always seen*/
@@ -31,5 +31,5 @@
 }
 
 #navbar__logo {
-    background-color: aqua;
+    background-color: rgb(111, 190, 190);
 }
