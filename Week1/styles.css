@@ -28,18 +28,21 @@ nav{
 .logo{
     width: 275px;
 }
-
+/*First nav ul li is used to get the texts on the right side*/
 nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
 }
+/*This nav ul li a is used for the color, size and position*/
 nav ul li a {
     color: #d4cfcf;
     text-decoration: none;
     font-size: 20px;
     position: relative;
 }
+/*a::after is used for the underline animation; default set is 0 with transition timing
+hover function is taken care of in the next one*/
 nav ul li a::after {
     content: '';
     width: 0;
@@ -50,6 +53,7 @@ nav ul li a::after {
     bottom: -6px;
     transition: 0.5s;
 }
+/*This takes care of when the user hovers over the 5 tabs the animation becomes visible*/
 nav ul li a:hover::after {
     width: 100%;
 }
