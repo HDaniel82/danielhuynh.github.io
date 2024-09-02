@@ -6,6 +6,7 @@
     /* For fonts and stuff, implement texts from google */
 }
 
+
 /* This section will take care of background, color, and everything else*/
 .navbar {
     background: black; 
@@ -32,4 +33,5 @@
 
 #navbar__logo {
     background-color: rgb(111, 190, 190);
+    background-image: linear-gradient(to top, rgb(100, 100,100) );
 }
