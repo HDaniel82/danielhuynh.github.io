@@ -65,3 +65,38 @@ nav ul li a:hover::after {
     margin-top: 20px;
     font-size: 50px;
 }
+#about{
+    padding: 80px 0;
+    color: #d4cfcf;
+}
+.row{ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 image{ /*adding a border to the picture */
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{ /*This will take care of the distance between About me and the picture*/
+    flex-basis: 65%;
+}
+.subtitle{
+    font-size: 60px;
+    font-weight: 600;
+    color:#d4cfcf;
+}
+.tabs{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tablinks{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
