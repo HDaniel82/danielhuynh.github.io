@@ -82,16 +82,16 @@ nav ul li a:hover::after {
     border-radius: 15px;
 }
 .about-col-2{ /*This will take care of the distance between About me and the picture*/
-    flex-basis: 65%;
+    flex-basis: 55%;
 }
 .subtitle{
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 600;
     color:#d4cfcf;
 }
 .tabs{
     display: flex;
-    margin: 20px 0 40px;
+    margin: 20px 0 20px;
 }
 .tablinks{
     margin-right: 50px;
