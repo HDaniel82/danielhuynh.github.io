@@ -1,37 +1,20 @@
-* {
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    margin: 0; 
-    padding: 0; 
-    font-family: 'Kumbh Sans', sans-serif
-    /* For fonts and stuff, implement texts from google */
 }
-
-
-/* This section will take care of background, color, and everything else*/
-.navbar {
-    background: black; 
-    height: 80;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    font-size: 7.0rem;
-    position: sticky;
-    top: 0; 
-    z-index: 999;  /*to make sure this is always seen*/
+body{
+    background: #080808; /* background color*/
+    color: #fff; /*Text color*/
 }
-
-.navbar__containter {
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    z-index: 1;
+#header{
     width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;  /*top left bottom right*/
-    padding: 0 50px;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
 }
-
-#navbar__logo {
-    background-color: rgb(111, 190, 190);
-    background-image: linear-gradient(to top, rgb(100, 100,100) );
+.container{
+    padding: 10px 10%;
 }
