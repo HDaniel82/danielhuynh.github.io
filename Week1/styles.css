@@ -100,4 +100,15 @@ nav ul li a:hover::after {
     cursor: pointer;
     position: relative;
 }
-
+nav ul p::after{  /* this and the next nav can be edited out, reformat later */
+    width: 0;
+    height: 3px;
+    background: #d4cfcf;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul p:hover::after{
+    width: 100%;
+}
