@@ -116,4 +116,21 @@ nav ul li a:hover::after {
     cursor: pointer;
     position: relative;
 }
+/* Create the underline effect using ::after */
+.tablinks::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #d4cfcf;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s; /* Smooth transition for the underline */
+}
+
+/* Hover effect to make the underline grow and change the color */
+.tablinks:hover::after {
+    width: 100%; /* Full width of the element on hover */
+}
+/* youtube at 27:33 
 
