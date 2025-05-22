@@ -36,7 +36,7 @@
             </div> 
             <div class="about-col-2"> <!--text about me-->>
                 <h1 class="subtitle">About Me</h1>
-                <p>I'm currently a junior at the University of Alabama at Birmingham (UAB),
+                <p>I'm currently a senior at the University of Alabama at Birmingham (UAB),
                 majoring in Computer Science with a minor in Mathematics. My fascination 
                 with technology started at an early age, inspired by the way machines are 
                 able to communicate and interact with each other in sci-fi shows. This curiosity has 
@@ -57,6 +57,24 @@
                         <summary class="tablinks">Education</summary>
                         <p>• Junior at UAB<br>• B.S. in Computer Science, Math minor</p>
                     </details>
+
+                    <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        const allDetails = document.querySelectorAll("details");
+
+                        allDetails.forEach((detail) => {
+                            detail.addEventListener("toggle", function () {
+          if (detail.open) {
+            allDetails.forEach((otherDetail) => {
+              if (otherDetail !== detail) {
+                otherDetail.open = false;
+              }
+            });
+          }
+        });
+      });
+    });
+  </script>
                 </div>
             </div> 
         </div>
