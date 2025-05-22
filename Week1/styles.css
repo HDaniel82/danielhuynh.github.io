@@ -106,8 +106,8 @@ nav ul li a:hover::after {
     color:#d4cfcf;
 }
 .tabs{
-    display: flex;
-    margin: 20px 0 20px;
+    display: block;
+    margin: 20px 0 ;
 }
 .tablinks {
     margin-right: 50px;
@@ -128,9 +128,28 @@ nav ul li a:hover::after {
     transition: 0.5s; /* Smooth transition for the underline */
 }
 
+/* The following represents the format for the drop downs on main page */
+details {
+    margin-bottom: 25px;
+}
+
+summary {
+
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    padding: 10px 0;
+    margin-bottom: 10px; /* Adds space below the summary */
+}
+
+summary::marker {
+    font-size: 1.2em;
+}
+
 /* Hover effect to make the underline grow and change the color */
 .tablinks:hover::after {
     width: 100%; /* Full width of the element on hover */
 }
 /* youtube at 27:33 
+
 
